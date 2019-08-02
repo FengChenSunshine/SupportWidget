@@ -1,12 +1,18 @@
 # SupportWidget 一个简单且够用的Android控件扩展selector、shape标签等功能UI库.
 
+[![](https://www.jitpack.io/v/FengChenSunshine/SupportWidget.svg)](https://www.jitpack.io/#FengChenSunshine/SupportWidget)
+[![](https://img.shields.io/badge/Apache-2.0-brightgreen.svg)](https://github.com/FengChenSunshine/SupportWidget/blob/master/LICENSE)
+
 ## 一、初衷
 网上关于扩展shape、实现selector功能的库很多，但是大多存在过渡封装，使其变得臃肿，变得不再各司其职，违背指责单一原则。
 比如一个TextView实现下载图片功能，那还需要ImageView做什么？TextView实现按钮功能，那还需要Button做什么？……等等？
 不是说这样不好，只是在很多时候这些过渡封装实现的功能显得有点鸡肋。
 >**_所以，本库的初衷就是追求：简单且够用！！！_**
 
-## 二、优点
+## 二、部分功能效果如下，可自由搭配实现更新更多效果：
+![效果1](https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_1.png)
+![效果2](https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_2.png)
+## 三、优点
 1.轻量：简单且够用！！！
 
 2.功能强大：几乎包含drawable-shape标签下所有属性，包含drawable-selector标签下disable、pressed、selected、focused、default选择器状态。
@@ -23,7 +29,7 @@
 
 8.扩展简单：可根据需要只需要几行代码就能移植该库实现功能到自定义View或者本库未提供的系统View中。
 
-## 三、目前该库包含的控件分为4以下类
+## 四、目前该库包含的控件分为4以下类
 [SupportTextView]: https://github.com/FengChenSunshine/SupportWidget/blob/master/library_widget/src/main/java/com/duanlu/widget/SupportTextView.java (SupportTextView)
 [SupportAutoCompleteTextView]: https://github.com/FengChenSunshine/SupportWidget/blob/master/library_widget/src/main/java/com/duanlu/widget/SupportAutoCompleteTextView.java (SupportAutoCompleteTextView)
 [SupportMultiAutoCompleteTextView]: https://github.com/FengChenSunshine/SupportWidget/blob/master/library_widget/src/main/java/com/duanlu/widget/SupportMultiAutoCompleteTextView.java (SupportMultiAutoCompleteTextView)
@@ -79,7 +85,7 @@
 | [SupportView] | View | √ | √ | - | - |
 | [SupportViewGroup] | ViewGroup | √ | √ | - | - |
 
-## 四、使用步骤
+## 五、使用步骤
 ### 1.添加依赖
 **step one：**
 
@@ -95,7 +101,7 @@
             implementation 'com.github.FengChenSunshine:SupportWidget:1.0.0'
     }
                 
-## 五、属性
+## 六、属性
 ### 1.默认状态属性:
 | 属性 | 对应标签 | 描述 | 值 | 备注 |
 | :-: | :-: |  :-: |  :-: |  :-: | 
@@ -215,7 +221,7 @@
 | widget_selected_src_tint |  | selected状态下tint颜色 | color |  |
 | widget_src_rotate_degrees |  | 图片旋转角度 | float、fraction | 系统rotation属性会导致View整体旋转<br/>使用该属性可以实现仅旋转图片<br/>该功能和tint搭配使用可以有效减小APK体积 |
 
-## 六、选择器效果实现、完整用法示例
+## 七、选择器效果实现、完整用法示例
 将之前的属性描述中的1到5部分的默认状态、disable禁用状态、pressed触摸按压状态、selected选中状态、focused获得焦点状态搭配结合使用即可获得选择器效果。
 ### 1.背景选择器eg:
     <com.duanlu.widget.SupportLinearLayout
@@ -459,7 +465,7 @@
 这里仅列举了部分属性，自己需要根据实际情况添加属性即可，但是属性名称必须参考该库命名且必须保持命名一致。
 具体可以复制[attrs]和[attrs_feature]里的需要的属性到自己定义的文件里。
 
-## 七、动态修改
+## 八、动态修改
 原则上本库不提倡使用Java代码动态修改设置，建议使用xml中配置的方式设置。
 但是如果真的有动态修改的需求，那么以SupportFeatureTextView为例，其它控件方法相同，可以通过以下方式动态修改：
 ### 1.修改背景色选择器相关:
@@ -499,7 +505,7 @@ textView.setHintTextColor(colorStateList);修改。
     SupportFeatureImageView view;
         view.getImageFeature()
             .setRotateDegrees(float rotateDegrees);
-## 八、Q&A
+## 九、Q&A
 ### Q1.为什么仅设置背景选择器中某一状态的一个属性会导致比如默认状态为圆角，选中状态为直角了？
     A:遵从在drawable-selector中定义shape一样，每种状态样式单独定义。
 ### Q2.为什么比如设置了文本颜色选择器获取焦点时的颜色但是没有效果？
@@ -508,7 +514,7 @@ textView.setHintTextColor(colorStateList);修改。
     A:使用描边颜色选择器时必须使用widget_contour_text_color属性设置默认描边颜色其它状态颜色才会有效。
 ### Q4.为什么比如使用widget_shader_text_start_color属性设置了文本颜色渐变但是没有效果？
     A:文本颜色渐变效果必须设置2个以上颜色时才会有效，并且如果有设置position时，position和color必须匹配，否则可能会导致程序崩溃。
-## 九、版本说明
+## 十、版本说明
 ### 1.0.0
 1.提供常用的基于selector、shape的背景选择器功能；
 
@@ -519,9 +525,9 @@ textView.setHintTextColor(colorStateList);修改。
 4.提供ImageView图片着色、旋转功能。
 
 5.开放自定义控件实现该库功能的能力。
-## 十、[9.点击查看简书上使用方法介绍](https://www.jianshu.com/p/895c9441c28b)
-## 十一.最后，喜欢的话可以点个赞哦！！！
-## 十二.我的开源库链接
+## 十一、[9.点击查看简书上使用方法介绍](https://www.jianshu.com/p/895c9441c28b)
+## 十二.最后，喜欢的话可以点个赞哦！！！
+## 十三.我的开源库链接
    1.[![](https://img.shields.io/badge/UiStatus-1.0.3-brightgreen.svg)](https://github.com/FengChenSunshine/UiStatus)是我的另一个开源库：一个简单且强大的Ui状态视图控制库！喜欢的可以看看，欢迎start！！！
    
    2.[![](https://img.shields.io/badge/SupportWidget-1.0.0-brightgreen.svg)](https://github.com/FengChenSunshine/SupportWidget)是我的另一个开源库：一个追求简单够用且强大的UI组件库！喜欢的可以看看，欢迎start！！！
