@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--///////////////////////////////enabled=false start///////////////////////////////-->
+    <attr name="widget_disabled_shape" format="enum">
+        <enum name="rectangle" value="0" />
+        <!-- Oval shape. -->
+        <enum name="oval" value="1" />
+        <!-- Line shape. -->
+        <enum name="line" value="2" />
+        <!-- Ring shape. -->
+        <enum name="ring" value="3" />
+    </attr>
+
+    <attr name="widget_disabled_size_width" format="dimension" />
+    <attr name="widget_disabled_size_height" format="dimension" />
+
+    <attr name="widget_disabled_padding_left" format="dimension" />
+    <attr name="widget_disabled_padding_top" format="dimension" />
+    <attr name="widget_disabled_padding_right" format="dimension" />
+    <attr name="widget_disabled_padding_bottom" format="dimension" />
+
+    <!--拐角-->
+    <!--全部的圆角半径,会被下面其它对应值覆盖-->
+    <attr name="widget_disabled_corners_radius" format="dimension" />
+    <!--左上角的圆角半径-->
+    <attr name="widget_disabled_corners_top_left_radius" format="dimension" />
+    <!--右上角的圆角半径-->
+    <attr name="widget_disabled_corners_top_right_radius" format="dimension" />
+    <!--左下角的圆角半径-->
+    <attr name="widget_disabled_corners_bottom_left_radius" format="dimension" />
+    <!--右下角的圆角半径-->
+    <attr name="widget_disabled_corners_bottom_right_radius" format="dimension" />
+
+    <!--描边的颜色-->
+    <attr name="widget_disabled_stroke_color" format="color" />
+    <!--描边的宽度-->
+    <attr name="widget_disabled_stroke_width" format="dimension" />
+    <!--虚线的宽度，值为0时是实线-->
+    <attr name="widget_disabled_stroke_dash_width" format="dimension" />
+    <!--虚线的间隔-->
+    <attr name="widget_disabled_stroke_dash_gap" format="dimension" />
+
+    <!--内部填充色-->
+    <attr name="widget_disabled_solid" format="color" />
+
+    <!--渐变开始点的颜色-->
+    <attr name="widget_disabled_gradient_start_color" format="color" />
+    <!--渐变中间点的颜色，在开始与结束点之间-->
+    <attr name="widget_disabled_gradient_center_color" format="color" />
+    <!--渐变结束点的颜色-->
+    <attr name="widget_disabled_gradient_end_color" format="color" />
+    <!--渐变角度:仅在widget_gradient_type="integer"时有效,且必须为45的倍数,0为从左到右,90为从上到下.这里使用枚举代替原生的数值方式-->
+    <attr name="widget_disabled_gradient_angle" format="enum">
+        <enum name="left_right" value="0" />
+        <enum name="bl_tr" value="1" />
+        <enum name="bottom_top" value="2" />
+        <enum name="br_tl" value="3" />
+        <enum name="right_left" value="4" />
+        <enum name="tr_bl" value="5" />
+        <enum name="top_bottom" value="6" />
+        <enum name="tl_br" value="7" />
+    </attr>
+    <!--渐变中心X的相当位置，范围为0～1-->
+    <attr name="widget_disabled_gradient_center_x" format="float|fraction" />
+    <!--渐变中心Y的相当位置，范围为0～1-->
+    <attr name="widget_disabled_gradient_center_y" format="float|fraction" />
+    <!--渐变的半径，只有当渐变类型为radial时才能使用-->
+    <attr name="widget_disabled_gradient_radius" format="dimension" />
+    <!--渐变模式-->
+    <attr name="widget_disabled_gradient_type" format="enum">
+        <!--线性渐变-->
+        <enum name="linear" value="0" />
+        <!--放射性渐变-->
+        <enum name="radial" value="1" />
+        <!--扫描式渐变-->
+        <enum name="sweep" value="2" />
+    </attr>
+    <!--useLevel属性通常不使用。该属性用于指定是否将该shape当成一个LevelListDrawable来使用，默认值为false-->
+    <attr name="widget_disabled_gradient_use_level" format="boolean" />
+
+    <attr name="widget_disabled_text_color" format="color" />
+    <attr name="widget_disabled_hint_text_color" format="color" />
+    <!--///////////////////////////////enabled=false状态属性 end///////////////////////////////-->
+
+</resources>

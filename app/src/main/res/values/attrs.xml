@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomView">
+        <attr name="widget_corners_radius" />
+        <attr name="widget_corners_top_left_radius" />
+        <attr name="widget_corners_top_right_radius" />
+        <attr name="widget_corners_bottom_left_radius" />
+        <attr name="widget_corners_bottom_right_radius" />
+        <attr name="widget_stroke_color" />
+        <attr name="widget_stroke_width" />
+        <attr name="widget_stroke_dash_width" />
+        <attr name="widget_stroke_dash_gap" />
+        <attr name="widget_solid" />
+        <!--其它属性-->
+    </declare-styleable>
+
+</resources>

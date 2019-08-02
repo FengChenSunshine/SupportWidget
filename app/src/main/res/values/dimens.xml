@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_padding">8dp</dimen>
+    <dimen name="common_margin">5dp</dimen>
+    <dimen name="common_radius">8dp</dimen>
+    <dimen name="common_radius_circle">180dp</dimen>
+    <dimen name="common_stroke_width">2dp</dimen>
+    <dimen name="common_stroke_dash_gap">5dp</dimen>
+    <dimen name="common_stroke_dash_width">5dp</dimen>
+
+</resources>

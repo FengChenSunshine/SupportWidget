@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/common_padding"
+    tools:context=".MainActivity">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alignItems="center"
+        app:flexWrap="wrap">
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--app:widget_corners_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--app:widget_corners_top_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_right_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--app:widget_corners_bottom_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_bottom_right_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--app:widget_corners_bottom_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_left_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--app:widget_corners_bottom_right_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_right_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--app:widget_corners_radius="@dimen/common_radius_circle" />-->
+
+        <!--<com.duanlu.widget.SupportButton-->
+        <!--style="@style/SupportButton.Common"-->
+        <!--android:layout_width="55dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--app:widget_corners_radius="@dimen/common_radius_circle" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--app:widget_corners_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--app:widget_corners_top_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_right_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--app:widget_corners_bottom_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_bottom_right_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--app:widget_corners_bottom_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_left_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--app:widget_corners_bottom_right_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_right_radius="@dimen/common_radius" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--app:widget_corners_radius="@dimen/common_radius_circle" />-->
+
+        <!--<com.duanlu.widget.SupportTextView-->
+        <!--style="@style/SupportTextView.Common"-->
+        <!--android:layout_width="55dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--app:widget_corners_radius="@dimen/common_radius_circle" />-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--app:widget_corners_radius="@dimen/common_radius">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--app:widget_corners_top_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_right_radius="@dimen/common_radius">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--app:widget_corners_bottom_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_bottom_right_radius="@dimen/common_radius">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--app:widget_corners_bottom_left_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_left_radius="@dimen/common_radius">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--app:widget_corners_bottom_right_radius="@dimen/common_radius"-->
+        <!--app:widget_corners_top_right_radius="@dimen/common_radius">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--app:widget_corners_radius="@dimen/common_radius_circle">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+
+        <!--<com.duanlu.widget.SupportLinearLayout-->
+        <!--style="@style/LinearLayout.Common"-->
+        <!--android:layout_width="55dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--app:widget_corners_radius="@dimen/common_radius_circle">-->
+
+        <!--<com.duanlu.widget.SupportTextView style="@style/SupportTextView.Inner.LinearLayout" />-->
+        <!--</com.duanlu.widget.SupportLinearLayout>-->
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="圆角"
+            app:widget_corners_radius="@dimen/common_radius" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="顶部圆角"
+            app:widget_corners_top_left_radius="@dimen/common_radius"
+            app:widget_corners_top_right_radius="@dimen/common_radius" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="底部圆角"
+            app:widget_corners_bottom_left_radius="@dimen/common_radius"
+            app:widget_corners_bottom_right_radius="@dimen/common_radius" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="左边圆角"
+            app:widget_corners_bottom_left_radius="@dimen/common_radius"
+            app:widget_corners_top_left_radius="@dimen/common_radius" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="右边圆角"
+            app:widget_corners_bottom_right_radius="@dimen/common_radius"
+            app:widget_corners_top_right_radius="@dimen/common_radius" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="半圆角"
+            app:widget_corners_radius="@dimen/common_radius_circle" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:text="圆形"
+            app:widget_corners_radius="@dimen/common_radius_circle" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:text="圆环"
+            app:widget_corners_radius="@dimen/common_radius_circle"
+            app:widget_solid="@color/white"
+            app:widget_stroke_color="@color/widget_primary"
+            app:widget_stroke_width="5dp"
+            app:widget_text_color="@color/widget_primary" />
+
+        <com.duanlu.widget.SupportTextView
+            style="@style/SupportTextView.Common"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="渐变"
+            app:widget_corners_radius="@dimen/common_radius_circle"
+            app:widget_gradient_center_color="#00ff00"
+            app:widget_gradient_end_color="#0000ff"
+            app:widget_gradient_start_color="#ff0000" />
+
+        <com.duanlu.widget.SupportTextView
+            style="@style/SupportTextView.Common"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="渐变中心"
+            app:widget_corners_radius="@dimen/common_radius_circle"
+            app:widget_gradient_center_color="#00ff00"
+            app:widget_gradient_center_x="0.5"
+            app:widget_gradient_center_y="0.3"
+            app:widget_gradient_end_color="#0000ff"
+            app:widget_gradient_radius="40dp"
+            app:widget_gradient_start_color="#ff0000"
+            app:widget_gradient_type="sweep"
+            app:widget_shape="oval" />
+
+        <com.duanlu.widget.SupportTextView
+            style="@style/SupportTextView.Common"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="虚线框"
+            android:textColor="@color/black"
+            app:widget_corners_radius="@dimen/common_radius"
+            app:widget_solid="@color/white"
+            app:widget_stroke_color="@color/widget_primary"
+            app:widget_stroke_dash_gap="@dimen/common_stroke_dash_gap"
+            app:widget_stroke_dash_width="@dimen/common_stroke_dash_width"
+            app:widget_stroke_width="@dimen/common_stroke_width" />
+
+        <com.duanlu.widget.SupportTextView
+            style="@style/SupportTextView.Stroke.Radius"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="边框" />
+
+        <com.duanlu.widget.SupportTextView
+            style="@style/SupportTextView.Stroke.Radius"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="渐变+边框"
+            app:widget_gradient_center_color="#00ff00"
+            app:widget_gradient_end_color="#0000ff"
+            app:widget_gradient_start_color="#ff0000" />
+
+        <com.duanlu.widget.SupportFeatureTextView
+            style="@style/SupportTextView.Stroke.Radius"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="描边"
+            android:textSize="24sp"
+            app:widget_contour_text_color="#ff0000" />
+
+        <com.duanlu.widget.SupportFeatureTextView
+            style="@style/SupportTextView.Stroke.Radius"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="文字渐变"
+            android:textSize="18sp"
+            app:widget_shader_text_colors="#ff0000,#00ff00,#0000ff" />
+
+        <com.duanlu.widget.SupportFeatureTextView
+            style="@style/SupportTextView.Stroke.Radius"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:text="文字渐变+描边"
+            android:textSize="18sp"
+            app:widget_contour_text_color="#ff0000"
+            app:widget_contour_width="3dp"
+            app:widget_shader_text_center_color="#00ff00"
+            app:widget_shader_text_end_color="#0000ff"
+            app:widget_shader_text_start_color="#ff0000" />
+
+        <com.duanlu.widget.SupportFeatureTextView
+            style="@style/SupportTextView.Stroke.Radius"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:text="文字镂空"
+            android:textColor="@color/widget_primary"
+            android:textSize="24sp"
+            app:widget_contour_text_color="#ff0000"
+            app:widget_contour_width="5dp" />
+
+        <com.duanlu.widget.SupportCheckBox
+            style="@style/SupportCheckBox.Common"
+            android:text="复选框" />
+
+        <com.duanlu.widget.SupportCheckBox
+            style="@style/SupportCheckBox.Common"
+            android:checked="true"
+            android:text="复选框选中变色" />
+
+        <com.duanlu.widget.SupportRadioGroup
+            style="@style/RadioGroup.Common"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="-1dp"
+            app:widget_corners_radius="@dimen/common_radius">
+
+            <com.duanlu.widget.SupportRadioButton
+                android:id="@+id/rb_1"
+                style="@style/SupportRadioButton.Common"
+                android:text="选项一" />
+
+            <com.duanlu.widget.SupportRadioButton
+                android:id="@+id/rb_2"
+                style="@style/SupportRadioButton.Common"
+                android:checked="true"
+                android:text="选项二" />
+        </com.duanlu.widget.SupportRadioGroup>
+
+        <com.duanlu.widget.SupportEditText
+            style="@style/SupportEditText.Common"
+            android:hint="搜索框失去焦点边框、文字、填充色可变色"
+            app:widget_hint_text_color="@color/white"
+            app:widget_solid="@color/widget_primary" />
+
+        <com.duanlu.widget.SupportEditText
+            style="@style/SupportEditText.Common"
+            android:hint="搜索框获取焦点边框、文字、填充色可变色" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:enabled="false"
+            android:text="禁用变色"
+            app:widget_corners_radius="@dimen/common_radius"
+            app:widget_disabled_corners_radius="@dimen/common_radius"
+            app:widget_disabled_solid="#999999"
+            app:widget_disabled_text_color="#333333"
+            app:widget_text_color="@color/white" />
+
+        <com.duanlu.widget.SupportButton
+            style="@style/SupportButton.Common"
+            android:text="按压变色"
+            app:widget_corners_radius="@dimen/common_radius"
+            app:widget_pressed_corners_radius="@dimen/common_radius"
+            app:widget_pressed_solid="#999999"
+            app:widget_pressed_text_color="#333333"
+            app:widget_text_color="@color/white" />
+
+        <com.duanlu.widget.SupportButton
+            android:id="@+id/sbtn_selected_sample"
+            style="@style/SupportButton.Common"
+            android:text="selected变色"
+            app:widget_corners_radius="@dimen/common_radius"
+            app:widget_selected_corners_radius="@dimen/common_radius"
+            app:widget_selected_solid="#00ffcc"
+            app:widget_selected_text_color="#ff4400"
+            app:widget_text_color="@color/white" />
+
+        <com.duanlu.widget.SupportLinearLayout
+            style="@style/LinearLayout.Base"
+            android:orientation="vertical"
+            app:widget_stroke_color="@color/widget_primary"
+            app:widget_stroke_dash_gap="@dimen/common_stroke_dash_gap"
+            app:widget_stroke_dash_width="@dimen/common_stroke_dash_width"
+            app:widget_stroke_width="@dimen/common_stroke_width">
+
+            <com.duanlu.widget.SupportImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="@dimen/common_padding"
+                android:src="@drawable/ic_collect"
+                app:widget_corners_radius="@dimen/common_radius_circle"
+                app:widget_solid="#00ffcc" />
+
+            <com.duanlu.widget.SupportTextView
+                style="@style/SupportTextView.Inner.Desc"
+                android:text="图片" />
+
+        </com.duanlu.widget.SupportLinearLayout>
+
+        <com.duanlu.widget.SupportLinearLayout
+            style="@style/LinearLayout.Base"
+            android:orientation="vertical"
+            app:widget_stroke_color="@color/widget_primary"
+            app:widget_stroke_dash_gap="@dimen/common_stroke_dash_gap"
+            app:widget_stroke_dash_width="@dimen/common_stroke_dash_width"
+            app:widget_stroke_width="@dimen/common_stroke_width">
+
+            <com.duanlu.widget.SupportFeatureImageView
+                android:id="@+id/tint"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="@dimen/common_padding"
+                android:src="@drawable/ic_collect"
+                app:widget_corners_radius="@dimen/common_radius"
+                app:widget_pressed_src_tint="@color/widget_primary"
+                app:widget_selected_src_tint="#f40"
+                app:widget_solid="#00ffcc"
+                app:widget_src_tint="@color/white" />
+
+            <com.duanlu.widget.SupportTextView
+                style="@style/SupportTextView.Inner.Desc"
+                android:text="图片着色" />
+        </com.duanlu.widget.SupportLinearLayout>
+
+        <com.duanlu.widget.SupportLinearLayout
+            style="@style/LinearLayout.Base"
+            android:orientation="vertical"
+            app:widget_stroke_color="@color/widget_primary"
+            app:widget_stroke_dash_gap="@dimen/common_stroke_dash_gap"
+            app:widget_stroke_dash_width="@dimen/common_stroke_dash_width"
+            app:widget_stroke_width="@dimen/common_stroke_width">
+
+            <com.duanlu.widget.SupportFeatureImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="@dimen/common_padding"
+                android:rotation="30"
+                android:src="@drawable/ic_collect"
+                app:widget_corners_radius="@dimen/common_radius"
+                app:widget_pressed_src_tint="@color/widget_primary"
+                app:widget_selected_src_tint="#f40"
+                app:widget_solid="#00ffcc"
+                app:widget_src_tint="@color/white" />
+
+            <com.duanlu.widget.SupportTextView
+                style="@style/SupportTextView.Inner.Desc"
+                android:text="原生图片旋转:\n控件整体旋转了" />
+        </com.duanlu.widget.SupportLinearLayout>
+
+        <com.duanlu.widget.SupportLinearLayout
+            style="@style/LinearLayout.Base"
+            android:orientation="vertical"
+            app:widget_stroke_color="@color/widget_primary"
+            app:widget_stroke_dash_gap="@dimen/common_stroke_dash_gap"
+            app:widget_stroke_dash_width="@dimen/common_stroke_dash_width"
+            app:widget_stroke_width="@dimen/common_stroke_width">
+
+            <com.duanlu.widget.SupportFeatureImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="@dimen/common_padding"
+                android:src="@drawable/ic_collect"
+                app:widget_corners_radius="@dimen/common_radius"
+                app:widget_pressed_src_tint="@color/widget_primary"
+                app:widget_selected_src_tint="#f40"
+                app:widget_solid="#00ffcc"
+                app:widget_src_rotate_degrees="90"
+                app:widget_src_tint="@color/white" />
+
+            <com.duanlu.widget.SupportTextView
+                style="@style/SupportTextView.Inner.Desc"
+                android:text="本库图片旋转:\n仅旋转图片" />
+        </com.duanlu.widget.SupportLinearLayout>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</android.support.v4.widget.NestedScrollView>

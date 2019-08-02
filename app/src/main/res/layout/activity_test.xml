@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/common_padding"
+    tools:context=".MainActivity">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alignItems="center"
+        app:flexWrap="wrap">
+
+        <com.duanlu.widget.SupportLinearLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            app:widget_corners_radius="8dp"
+            app:widget_corners_bottom_left_radius="8dp"
+            app:widget_corners_bottom_right_radius="8dp"
+            app:widget_corners_top_left_radius="8dp"
+            app:widget_corners_top_right_radius="8dp"
+
+            app:widget_gradient_start_color="#0000ff"
+            app:widget_gradient_center_color="#00ff00"
+            app:widget_gradient_end_color="#ff0000"
+            app:widget_gradient_center_x="0.5"
+            app:widget_gradient_center_y="0.5"
+            app:widget_gradient_type="linear"
+            app:widget_gradient_radius="50dp"
+            app:widget_gradient_angle="left_right"
+            app:widget_gradient_use_level="false"
+
+            app:widget_solid="#008577"
+
+            app:widget_stroke_color="#000000"
+            app:widget_stroke_dash_gap="5dp"
+            app:widget_stroke_dash_width="5dp"
+            app:widget_stroke_width="2dp"
+
+
+            app:widget_disabled_corners_radius="8dp"
+            app:widget_disabled_corners_bottom_left_radius="8dp"
+            app:widget_disabled_corners_bottom_right_radius="8dp"
+            app:widget_disabled_corners_top_left_radius="8dp"
+            app:widget_disabled_corners_top_right_radius="8dp"
+
+            app:widget_disabled_gradient_start_color="#0000ff"
+            app:widget_disabled_gradient_center_color="#00ff00"
+            app:widget_disabled_gradient_end_color="#ff0000"
+            app:widget_disabled_gradient_center_x="0.5"
+            app:widget_disabled_gradient_center_y="0.5"
+            app:widget_disabled_gradient_type="linear"
+            app:widget_disabled_gradient_radius="50dp"
+            app:widget_disabled_gradient_angle="left_right"
+            app:widget_disabled_gradient_use_level="false"
+
+            app:widget_disabled_solid="#008577"
+
+            app:widget_disabled_stroke_color="#000000"
+            app:widget_disabled_stroke_dash_gap="5dp"
+            app:widget_disabled_stroke_dash_width="5dp"
+            app:widget_disabled_stroke_width="2dp"
+
+
+            app:widget_pressed_corners_radius="8dp"
+            app:widget_pressed_corners_bottom_left_radius="8dp"
+            app:widget_pressed_corners_bottom_right_radius="8dp"
+            app:widget_pressed_corners_top_left_radius="8dp"
+            app:widget_pressed_corners_top_right_radius="8dp"
+
+            app:widget_pressed_gradient_start_color="#0000ff"
+            app:widget_pressed_gradient_center_color="#00ff00"
+            app:widget_pressed_gradient_end_color="#ff0000"
+            app:widget_pressed_gradient_center_x="0.5"
+            app:widget_pressed_gradient_center_y="0.5"
+            app:widget_pressed_gradient_type="linear"
+            app:widget_pressed_gradient_radius="50dp"
+            app:widget_pressed_gradient_angle="left_right"
+            app:widget_pressed_gradient_use_level="false"
+
+            app:widget_pressed_solid="#008577"
+
+            app:widget_pressed_stroke_color="#000000"
+            app:widget_pressed_stroke_dash_gap="5dp"
+            app:widget_pressed_stroke_dash_width="5dp"
+            app:widget_pressed_stroke_width="2dp"
+
+
+            app:widget_selected_corners_radius="8dp"
+            app:widget_selected_corners_bottom_left_radius="8dp"
+            app:widget_selected_corners_bottom_right_radius="8dp"
+            app:widget_selected_corners_top_left_radius="8dp"
+            app:widget_selected_corners_top_right_radius="8dp"
+
+            app:widget_selected_gradient_start_color="#0000ff"
+            app:widget_selected_gradient_center_color="#00ff00"
+            app:widget_selected_gradient_end_color="#ff0000"
+            app:widget_selected_gradient_center_x="0.5"
+            app:widget_selected_gradient_center_y="0.5"
+            app:widget_selected_gradient_type="linear"
+            app:widget_selected_gradient_radius="50dp"
+            app:widget_selected_gradient_angle="left_right"
+            app:widget_selected_gradient_use_level="false"
+
+            app:widget_selected_solid="#008577"
+
+            app:widget_selected_stroke_color="#000000"
+            app:widget_selected_stroke_dash_gap="5dp"
+            app:widget_selected_stroke_dash_width="5dp"
+            app:widget_selected_stroke_width="2dp"
+
+
+            app:widget_focused_corners_radius="8dp"
+            app:widget_focused_corners_bottom_left_radius="8dp"
+            app:widget_focused_corners_bottom_right_radius="8dp"
+            app:widget_focused_corners_top_left_radius="8dp"
+            app:widget_focused_corners_top_right_radius="8dp"
+
+            app:widget_focused_gradient_start_color="#0000ff"
+            app:widget_focused_gradient_center_color="#00ff00"
+            app:widget_focused_gradient_end_color="#ff0000"
+            app:widget_focused_gradient_center_x="0.5"
+            app:widget_focused_gradient_center_y="0.5"
+            app:widget_focused_gradient_type="linear"
+            app:widget_focused_gradient_radius="50dp"
+            app:widget_focused_gradient_angle="left_right"
+            app:widget_focused_gradient_use_level="false"
+
+            app:widget_focused_solid="#008577"
+
+            app:widget_focused_stroke_color="#000000"
+            app:widget_focused_stroke_dash_gap="5dp"
+            app:widget_focused_stroke_dash_width="5dp"
+            app:widget_focused_stroke_width="2dp"
+
+            />
+
+        <com.duanlu.widget.SupportTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:widget_text_color="#333333"
+            app:widget_disabled_text_color="#333333"
+            app:widget_pressed_text_color="#333333"
+            app:widget_selected_text_color="#333333"
+            app:widget_checked_text_color="#333333"
+            app:widget_focused_text_color="#333333"
+
+            app:widget_hint_text_color="#333333"
+            app:widget_disabled_hint_text_color="#333333"
+            app:widget_pressed_hint_text_color="#333333"
+            app:widget_selected_hint_text_color="#333333"
+            app:widget_checked_hint_text_color="#333333"
+            app:widget_focused_hint_text_color="#333333"/>
+
+        <com.duanlu.widget.SupportFeatureTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="48sp"
+
+            app:widget_contour_width="5dp"
+            app:widget_contour_text_color="#008577"
+            app:widget_checked_contour_text_color="#008577"
+            app:widget_disabled_contour_text_color="#008577"
+            app:widget_pressed_contour_text_color="#008577"
+            app:widget_focused_contour_text_color="#008577"
+            app:widget_selected_contour_text_color="#008577"
+
+            app:widget_shader_text_start_color="#ff0000"
+            app:widget_shader_text_center_color="#00ff00"
+            app:widget_shader_text_end_color="#0000ff"
+            app:widget_shader_text_start_position="0.1"
+            app:widget_shader_text_center_position="0.5"
+            app:widget_shader_text_end_position="0.9"
+            app:widget_shader_text_colors="#ff0000,#00ff00,#0000ff"
+            app:widget_shader_text_positions="0.1,0.5,0.9"/>
+
+        <com.duanlu.widget.SupportFeatureImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:rotation="30"
+            app:widget_src_tint="#008577"
+            app:widget_disabled_src_tint="#008577"
+            app:widget_pressed_src_tint="#008577"
+            app:widget_selected_src_tint="#008577"
+            app:widget_checked_src_tint="#008577"
+            app:widget_focused_src_tint="#008577"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</android.support.v4.widget.NestedScrollView>

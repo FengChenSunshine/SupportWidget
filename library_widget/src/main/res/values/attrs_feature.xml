@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    ////////////////////////////////////////////////////////////////////
+    /////---------------------------Text---------------------------/////
+    ////////////////////////////////////////////////////////////////////
+    <attr name="widget_contour_width" format="dimension" />
+    <attr name="widget_contour_text_color" format="color" />
+    <attr name="widget_checked_contour_text_color" format="color" />
+    <attr name="widget_disabled_contour_text_color" format="color" />
+    <attr name="widget_focused_contour_text_color" format="color" />
+    <attr name="widget_pressed_contour_text_color" format="color" />
+    <attr name="widget_selected_contour_text_color" format="color" />
+
+    <attr name="widget_shader_text_start_color" format="color" />
+    <attr name="widget_shader_text_center_color" format="color" />
+    <attr name="widget_shader_text_end_color" format="color" />
+    <attr name="widget_shader_text_colors" format="string" />
+    <attr name="widget_shader_text_start_position" format="float" />
+    <attr name="widget_shader_text_center_position" format="float" />
+    <attr name="widget_shader_text_end_position" format="float" />
+    <attr name="widget_shader_text_positions" format="string" />
+
+    <declare-styleable name="SupportWidgetFeature">
+        <attr name="widget_contour_width" />
+        <attr name="widget_contour_text_color" />
+        <attr name="widget_checked_contour_text_color" />
+        <attr name="widget_disabled_contour_text_color" />
+        <attr name="widget_focused_contour_text_color" />
+        <attr name="widget_pressed_contour_text_color" />
+        <attr name="widget_selected_contour_text_color" />
+
+        <attr name="widget_shader_text_start_color" />
+        <attr name="widget_shader_text_center_color" />
+        <attr name="widget_shader_text_end_color" />
+        <attr name="widget_shader_text_colors" />
+        <attr name="widget_shader_text_start_position" />
+        <attr name="widget_shader_text_center_position" />
+        <attr name="widget_shader_text_end_position" />
+        <attr name="widget_shader_text_positions" />
+    </declare-styleable>
+
+    ////////////////////////////////////////////////////////////////////
+    /////---------------------------Image--------------------------/////
+    ////////////////////////////////////////////////////////////////////
+    <!--tint需要Android5.0 API21以上-->
+    <attr name="widget_src_tint" format="color" />
+    <attr name="widget_checked_src_tint" format="color" />
+    <attr name="widget_disabled_src_tint" format="color" />
+    <attr name="widget_focused_src_tint" format="color" />
+    <attr name="widget_pressed_src_tint" format="color" />
+    <attr name="widget_selected_src_tint" format="color" />
+
+    <!--旋转角度-->
+    <attr name="widget_src_rotate_degrees" format="float|fraction" />
+
+    <declare-styleable name="SupportWidgetImageFeature">
+        <attr name="widget_src_tint" />
+        <attr name="widget_checked_src_tint" />
+        <attr name="widget_disabled_src_tint" />
+        <attr name="widget_focused_src_tint" />
+        <attr name="widget_pressed_src_tint" />
+        <attr name="widget_selected_src_tint" />
+
+        <attr name="widget_src_rotate_degrees" />
+    </declare-styleable>
+
+</resources>
