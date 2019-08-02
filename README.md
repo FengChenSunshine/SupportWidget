@@ -9,7 +9,7 @@
 不是说这样不好，只是在很多时候这些过渡封装实现的功能显得有点鸡肋。
 >**_所以，本库的初衷就是追求：简单且够用！！！_**
 
-## 二、部分功能效果如下，可自由搭配实现更新更多效果：
+## 二、部分功能效果如下，可自由搭配实现更多效果：
 <img src="https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_1.jpg" width="360"><img src="https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_2.jpg" width="360">
 
 ## 三、优点
@@ -525,7 +525,7 @@ textView.setHintTextColor(colorStateList);修改。
 4.提供ImageView图片着色、旋转功能。
 
 5.开放自定义控件实现该库功能的能力。
-## 十一、[9.点击查看简书上使用方法介绍](https://www.jianshu.com/p/895c9441c28b)
+## 十一、[点击查看简书上使用方法介绍](https://www.jianshu.com/p/c65bedf3cbeb)
 ## 十二.最后，喜欢的话可以点个赞哦！！！
 ## 十三.我的开源库链接
    1.[![](https://img.shields.io/badge/UiStatus-1.0.3-brightgreen.svg)](https://github.com/FengChenSunshine/UiStatus)是我的另一个开源库：一个简单且强大的Ui状态视图控制库！喜欢的可以看看，欢迎start！！！
