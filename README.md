@@ -10,8 +10,8 @@
 >**_所以，本库的初衷就是追求：简单且够用！！！_**
 
 ## 二、部分功能效果如下，可自由搭配实现更新更多效果：
-![效果1](https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_1.png)
-![效果2](https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_2.png)
+<img src="https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_1.jpg" width="360"><img src="https://github.com/FengChenSunshine/SupportWidget/blob/master/app/src/main/res/drawable/sample_2.jpg" width="360">
+
 ## 三、优点
 1.轻量：简单且够用！！！
 
